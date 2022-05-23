@@ -8,7 +8,7 @@ const Layout = ({children}:LayoutProps)=>{
     return(
         <div className="flex">
             <NavBar/>
-            <div className="flex flex-1 p-10 justify-center">
+            <div className="flex-1 p-10">
             {children}
             </div>
         </div>
